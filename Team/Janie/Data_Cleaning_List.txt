@@ -1,0 +1,44 @@
+State/Crime
+Table_5_Crime_in_the_United_States_by_State
+
+State/Business
+All
+
+
+State/House_Unit
+1 file
+
+Region/Crime
+Table_30_Number_and_Rate_of_Arrests_by_Region_2015
+
+Region/Population
+nst-est2018-alldata  - population region for all the yrs
+
+County/Demographic
+1 file
+
+County/House_unit
+1 file
+
+
+Country/Business
+Firm_Size - all
+
+Country/Crime
+Table_32_Ten_Year_Arrest_Trends_Totals
+
+City/Crime
+Table_8_Offenses_Known_to_Law_Enforcement_by_State_by_City
+Table_44_Arrest_Trends_Cities_2010-2011
+
+
+
+
+
+
+
+
+
+
+
+

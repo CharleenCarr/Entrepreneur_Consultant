@@ -1,0 +1,18 @@
+PEPCUMGRHU
+Housing Unit Estimates for the 100 Fastest Growing Counties With 5,000 or More Housing Units: April 1, 2010 to July 1, 2017 - United States -- County
+
+Note: Areas are included in this table if their estimated housing units exceed the stated
+threshold at any point in the time series. The estimates are based on the 2010 Census and
+reflect changes to the April 1, 2010 housing units due to the Count Question Resolution
+program and geographic program revisions. All geographic boundaries for the 2017 housing unit
+estimates series are as of January 1, 2017. For the housing unit estimates methodology
+statement, see 
+http://www.census.gov/programs-surveys/popest/technical-documentation/methodology.html.
+
+
+Suggested Citation: 
+Housing Unit Estimates for the 100 Fastest Growing Counties With 5,000 or More Housing Units: April 1, 2010 to July 1, 2017 
+Source: U.S. Census Bureau, Population Division 
+Release Date: May 2018
+
+

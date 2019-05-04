@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Enterpreneur Consultant</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/myStyle1.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/table-style.css') }}">
+      </head>      
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="text-align: center">
+            <h1>Testing User & Meta Column Data</h1>
+            <a href="/" title="Home">Home</a>
+            <ul>
+                {% for row in list %}
+                <li>{{ row }}</li>                     
+               
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2></h2>
+                <div id="plot"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2><a href="/send" title="non fuctional">Add</a></h2>
+            </div>
+        </div>
+    </div>
+
+  <!-- <script src="/Scripts/myJQuery.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+</html>

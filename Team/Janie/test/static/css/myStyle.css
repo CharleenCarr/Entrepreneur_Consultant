@@ -1,0 +1,94 @@
+﻿html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1rem;
+  overflow: auto; 
+  }
+
+*, *:before, *:after { 
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; 
+ }
+
+body {
+  background-color: black ;
+  background-image: url("/static/img/business-handshake.jpg");
+  background-repeat: no-repeat;
+  /* Chrome, Safari, Opera */
+  -webkit-animation: img_loop 25s linear 10s infinite alternate;  
+  /* Standard syntax */
+  animation: img_loop 25s linear 10s infinite alternate;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 1px;
+  font-family: Georgia, Arial, Helvetica;
+  /* font-size: 1rem; */
+}  
+  .jumbotron {
+    background: transparent;
+  }
+
+  /* Calculate text size based on port */
+  .text-responsive {
+    font-size: 5vw;
+  }
+
+  .sticky-offset { 
+    padding: 15rem 0rem 0rem 0rem; 
+  } 
+
+/*
+####################################################
+  JUMBOTRON ANIMATION
+####################################################
+Chrome, Safari, Opera */
+@-webkit-keyframes img_loop {
+  0% {background-image: url("/static/img/entrepreneur-woman-leadership.jpg");}
+  25% {background-image: url("/static/img/entrepreneurship.jpg");}
+  50% {background-image: url("/static/img/enterprenuership-USA.jpg");}
+  75% {background-image: url("/static/img/entrepreneur-networking.jpg");}
+  100% {background-image: url("/static/img/business-handshake.jpg");}
+}
+
+/* Standard syntax */
+@keyframes img_loop {
+  0% {background-image: url("/static/img/entrepreneur-woman-leadership.jpg");}
+  25% {background-image: url("/static/img/entrepreneurship.jpg");}
+  50% {background-image: url("/static/img/enterprenuership-USA.jpg");}
+  75% {background-image: url("/static/img/entrepreneur-networking.jpg");}
+  100% {background-image: url("/static/img/business-handshake.jpg");}
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+Bootstrap 4 breakpoints
+*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {  
+  .sticky-offset { padding: 11rem 0rem 0rem 0rem; } 
+  .text-responsive {font-size: 5vw;}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {  
+  .sticky-offset { padding: 15rem 0rem 0rem 0rem; } 
+  .text-responsive {font-size: 4vw;}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+  .sticky-offset { padding: 15rem 0rem 0rem 0rem; }
+  .text-responsive {font-size: 3vw;} 
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+  .sticky-offset { padding: 17rem 0rem 0rem 0rem; } 
+  .text-responsive {font-size: 3vw;}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+  .sticky-offset { padding: 17rem 0rem 0rem 0rem; } 
+  .text-responsive {font-size: 3vw;}
+}

@@ -1,0 +1,102 @@
+GEO.id,GEO.id2,GEO.display-label,GC_RANK.target-geo-id,GC_RANK.target-geo-id2,GC_RANK.rank-label,GC_RANK.display-label,GC_RANK.display-label,hubase42010,huest72017,numdiff20102017,percdiff20102017
+Id,Id2,Geography,Target Geo Id,Target Geo Id2,Rank,Geography,Geography,"Housing Unit Estimate - April 1, 2010 Estimates Base","Housing Unit Estimate - July 1, 2017","Change, 2010 to 2017 - Number","Change, 2010 to 2017 - Percent"
+0100000US,,United States,0500000US38053,38053,1,"United States - McKenzie County, North Dakota","McKenzie County, North Dakota",3089,6736,3647,118.1
+0100000US,,United States,0500000US38105,38105,2,"United States - Williams County, North Dakota","Williams County, North Dakota",10465,19608,9143,87.4
+0100000US,,United States,0500000US38089,38089,3,"United States - Stark County, North Dakota","Stark County, North Dakota",10736,14653,3917,36.5
+0100000US,,United States,0500000US19049,19049,4,"United States - Dallas County, Iowa","Dallas County, Iowa",27261,36844,9583,35.2
+0100000US,,United States,0500000US12119,12119,5,"United States - Sumter County, Florida","Sumter County, Florida",53026,70580,17554,33.1
+0100000US,,United States,0500000US48209,48209,6,"United States - Hays County, Texas","Hays County, Texas",59407,78509,19102,32.2
+0100000US,,United States,0500000US48157,48157,7,"United States - Fort Bend County, Texas","Fort Bend County, Texas",196723,252998,56275,28.6
+0100000US,,United States,0500000US13117,13117,8,"United States - Forsyth County, Georgia","Forsyth County, Georgia",64052,81271,17219,26.9
+0100000US,,United States,0500000US08014,8014,9,"United States - Broomfield County, Colorado","Broomfield County, Colorado",22637,28539,5902,26.1
+0100000US,,United States,0500000US49051,49051,10,"United States - Wasatch County, Utah","Wasatch County, Utah",10573,13302,2729,25.8
+0100000US,,United States,0500000US16065,16065,11,"United States - Madison County, Idaho","Madison County, Idaho",11287,14112,2825,25
+0100000US,,United States,0500000US38059,38059,12,"United States - Morton County, North Dakota","Morton County, North Dakota",12079,15093,3014,25
+0100000US,,United States,0500000US38101,38101,13,"United States - Ward County, North Dakota","Ward County, North Dakota",26744,33103,6359,23.8
+0100000US,,United States,0500000US48091,48091,14,"United States - Comal County, Texas","Comal County, Texas",47106,57937,10831,23
+0100000US,,United States,0500000US38061,38061,15,"United States - Mountrail County, North Dakota","Mountrail County, North Dakota",4119,5050,931,22.6
+0100000US,,United States,0500000US48339,48339,16,"United States - Montgomery County, Texas","Montgomery County, Texas",177653,217051,39398,22.2
+0100000US,,United States,0500000US48397,48397,17,"United States - Rockwall County, Texas","Rockwall County, Texas",27932,33992,6060,21.7
+0100000US,,United States,0500000US51107,51107,18,"United States - Loudoun County, Virginia","Loudoun County, Virginia",109455,132965,23510,21.5
+0100000US,,United States,0500000US38017,38017,19,"United States - Cass County, North Dakota","Cass County, North Dakota",67939,82328,14389,21.2
+0100000US,,United States,0500000US48085,48085,20,"United States - Collin County, Texas","Collin County, Texas",300846,363568,62722,20.8
+0100000US,,United States,0500000US48121,48121,21,"United States - Denton County, Texas","Denton County, Texas",256171,309325,53154,20.7
+0100000US,,United States,0500000US13029,13029,22,"United States - Bryan County, Georgia","Bryan County, Georgia",11835,14222,2387,20.2
+0100000US,,United States,0500000US38015,38015,23,"United States - Burleigh County, North Dakota","Burleigh County, North Dakota",35755,42756,7001,19.6
+0100000US,,United States,0500000US47187,47187,24,"United States - Williamson County, Tennessee","Williamson County, Tennessee",68523,81756,13233,19.3
+0100000US,,United States,0500000US18011,18011,25,"United States - Boone County, Indiana","Boone County, Indiana",22753,27048,4295,18.9
+0100000US,,United States,0500000US12109,12109,26,"United States - St. Johns County, Florida","St. Johns County, Florida",89824,106530,16706,18.6
+0100000US,,United States,0500000US18057,18057,27,"United States - Hamilton County, Indiana","Hamilton County, Indiana",106772,126594,19822,18.6
+0100000US,,United States,0500000US13073,13073,28,"United States - Columbia County, Georgia","Columbia County, Georgia",48628,57474,8846,18.2
+0100000US,,United States,0500000US49053,49053,29,"United States - Washington County, Utah","Washington County, Utah",57735,68226,10491,18.2
+0100000US,,United States,0500000US48491,48491,30,"United States - Williamson County, Texas","Williamson County, Texas",162737,192217,29480,18.1
+0100000US,,United States,0500000US22121,22121,31,"United States - West Baton Rouge Parish, Louisiana","West Baton Rouge Parish, Louisiana",9324,10949,1625,17.4
+0100000US,,United States,0500000US48071,48071,32,"United States - Chambers County, Texas","Chambers County, Texas",13293,15598,2305,17.3
+0100000US,,United States,0500000US30031,30031,33,"United States - Gallatin County, Montana","Gallatin County, Montana",42289,49444,7155,16.9
+0100000US,,United States,0500000US48187,48187,34,"United States - Guadalupe County, Texas","Guadalupe County, Texas",50016,58427,8411,16.8
+0100000US,,United States,0500000US22005,22005,35,"United States - Ascension Parish, Louisiana","Ascension Parish, Louisiana",40774,47534,6760,16.6
+0100000US,,United States,0500000US08035,8035,36,"United States - Douglas County, Colorado","Douglas County, Colorado",106860,124466,17606,16.5
+0100000US,,United States,0500000US49049,49049,37,"United States - Utah County, Utah","Utah County, Utah",148386,172791,24405,16.4
+0100000US,,United States,0500000US47189,47189,38,"United States - Wilson County, Tennessee","Wilson County, Tennessee",45585,53012,7427,16.3
+0100000US,,United States,0500000US37133,37133,39,"United States - Onslow County, North Carolina","Onslow County, North Carolina",68241,79305,11064,16.2
+0100000US,,United States,0500000US12097,12097,40,"United States - Osceola County, Florida","Osceola County, Florida",128170,148901,20731,16.2
+0100000US,,United States,0500000US48453,48453,41,"United States - Travis County, Texas","Travis County, Texas",441314,512388,71074,16.1
+0100000US,,United States,0500000US37183,37183,42,"United States - Wake County, North Carolina","Wake County, North Carolina",371858,431281,59423,16
+0100000US,,United States,0500000US28045,28045,43,"United States - Hancock County, Mississippi","Hancock County, Mississippi",21868,25334,3466,15.8
+0100000US,,United States,0500000US51127,51127,44,"United States - New Kent County, Virginia","New Kent County, Virginia",7296,8449,1153,15.8
+0100000US,,United States,0500000US22015,22015,45,"United States - Bossier Parish, Louisiana","Bossier Parish, Louisiana",49351,57090,7739,15.7
+0100000US,,United States,0500000US12131,12131,46,"United States - Walton County, Florida","Walton County, Florida",45133,52167,7034,15.6
+0100000US,,United States,0500000US47125,47125,47,"United States - Montgomery County, Tennessee","Montgomery County, Tennessee",70110,81005,10895,15.5
+0100000US,,United States,0500000US48041,48041,48,"United States - Brazos County, Texas","Brazos County, Texas",77705,89749,12044,15.5
+0100000US,,United States,0500000US48039,48039,49,"United States - Brazoria County, Texas","Brazoria County, Texas",118324,136364,18040,15.2
+0100000US,,United States,0500000US30083,30083,50,"United States - Richland County, Montana","Richland County, Montana",4550,5243,693,15.2
+0100000US,,United States,0500000US37093,37093,51,"United States - Hoke County, North Carolina","Hoke County, North Carolina",18194,20951,2757,15.2
+0100000US,,United States,0500000US48259,48259,52,"United States - Kendall County, Texas","Kendall County, Texas",14058,16187,2129,15.1
+0100000US,,United States,0500000US21209,21209,53,"United States - Scott County, Kentucky","Scott County, Kentucky",19309,22223,2914,15.1
+0100000US,,United States,0500000US13219,13219,54,"United States - Oconee County, Georgia","Oconee County, Georgia",12387,14256,1869,15.1
+0100000US,,United States,0500000US45057,45057,55,"United States - Lancaster County, South Carolina","Lancaster County, South Carolina",32688,37607,4919,15
+0100000US,,United States,0500000US47149,47149,56,"United States - Rutherford County, Tennessee","Rutherford County, Tennessee",102962,118422,15460,15
+0100000US,,United States,0500000US13103,13103,57,"United States - Effingham County, Georgia","Effingham County, Georgia",19887,22844,2957,14.9
+0100000US,,United States,0500000US37019,37019,58,"United States - Brunswick County, North Carolina","Brunswick County, North Carolina",77482,88977,11495,14.8
+0100000US,,United States,0500000US46083,46083,59,"United States - Lincoln County, South Dakota","Lincoln County, South Dakota",17874,20525,2651,14.8
+0100000US,,United States,0500000US13183,13183,60,"United States - Long County, Georgia","Long County, Georgia",6023,6915,892,14.8
+0100000US,,United States,0500000US45053,45053,61,"United States - Jasper County, South Carolina","Jasper County, South Carolina",10300,11816,1516,14.7
+0100000US,,United States,0500000US49047,49047,62,"United States - Uintah County, Utah","Uintah County, Utah",11971,13726,1755,14.7
+0100000US,,United States,0500000US53021,53021,63,"United States - Franklin County, Washington","Franklin County, Washington",24423,27958,3535,14.5
+0100000US,,United States,0500000US46099,46099,64,"United States - Minnehaha County, South Dakota","Minnehaha County, South Dakota",71558,81859,10301,14.4
+0100000US,,United States,0500000US45015,45015,65,"United States - Berkeley County, South Carolina","Berkeley County, South Carolina",73380,83911,10531,14.4
+0100000US,,United States,0500000US22063,22063,66,"United States - Livingston Parish, Louisiana","Livingston Parish, Louisiana",50177,57263,7086,14.1
+0100000US,,United States,0500000US08123,8123,67,"United States - Weld County, Colorado","Weld County, Colorado",96286,109869,13583,14.1
+0100000US,,United States,0500000US19103,19103,68,"United States - Johnson County, Iowa","Johnson County, Iowa",55967,63859,7892,14.1
+0100000US,,United States,0500000US45091,45091,69,"United States - York County, South Carolina","York County, South Carolina",94186,107313,13127,13.9
+0100000US,,United States,0500000US46127,46127,70,"United States - Union County, South Dakota","Union County, South Dakota",6280,7141,861,13.7
+0100000US,,United States,0500000US28071,28071,71,"United States - Lafayette County, Mississippi","Lafayette County, Mississippi",22735,25778,3043,13.4
+0100000US,,United States,0500000US16001,16001,72,"United States - Ada County, Idaho","Ada County, Idaho",159473,180722,21249,13.3
+0100000US,,United States,0500000US37063,37063,73,"United States - Durham County, North Carolina","Durham County, North Carolina",120248,136131,15883,13.2
+0100000US,,United States,0500000US48373,48373,74,"United States - Polk County, Texas","Polk County, Texas",22684,25675,2991,13.2
+0100000US,,United States,0500000US05007,5007,75,"United States - Benton County, Arkansas","Benton County, Arkansas",93095,105269,12174,13.1
+0100000US,,United States,0500000US48479,48479,76,"United States - Webb County, Texas","Webb County, Texas",73495,83082,9587,13
+0100000US,,United States,0500000US38035,38035,77,"United States - Grand Forks County, North Dakota","Grand Forks County, North Dakota",29345,33112,3767,12.8
+0100000US,,United States,0500000US46033,46033,78,"United States - Custer County, South Dakota","Custer County, South Dakota",4629,5221,592,12.8
+0100000US,,United States,0500000US49045,49045,79,"United States - Tooele County, Utah","Tooele County, Utah",19455,21913,2458,12.6
+0100000US,,United States,0500000US48139,48139,80,"United States - Ellis County, Texas","Ellis County, Texas",54364,61214,6850,12.6
+0100000US,,United States,0500000US48329,48329,81,"United States - Midland County, Texas","Midland County, Texas",54346,61132,6786,12.5
+0100000US,,United States,0500000US28089,28089,82,"United States - Madison County, Mississippi","Madison County, Mississippi",38558,43371,4813,12.5
+0100000US,,United States,0500000US49019,49019,83,"United States - Grand County, Utah","Grand County, Utah",4816,5414,598,12.4
+0100000US,,United States,0500000US01113,1113,84,"United States - Russell County, Alabama","Russell County, Alabama",24597,27636,3039,12.4
+0100000US,,United States,0500000US05031,5031,85,"United States - Craighead County, Arkansas","Craighead County, Arkansas",40516,45493,4977,12.3
+0100000US,,United States,0500000US08031,8031,86,"United States - Denver County, Colorado","Denver County, Colorado",285635,320545,34910,12.2
+0100000US,,United States,0500000US10005,10005,87,"United States - Sussex County, Delaware","Sussex County, Delaware",123028,138002,14974,12.2
+0100000US,,United States,0500000US51179,51179,88,"United States - Stafford County, Virginia","Stafford County, Virginia",43979,49299,5320,12.1
+0100000US,,United States,0500000US51630,51630,89,"United States - Fredericksburg city, Virginia","Fredericksburg city, Virginia",10438,11696,1258,12.1
+0100000US,,United States,0500000US16055,16055,90,"United States - Kootenai County, Idaho","Kootenai County, Idaho",63166,70758,7592,12
+0100000US,,United States,0500000US08069,8069,91,"United States - Larimer County, Colorado","Larimer County, Colorado",132720,148549,15829,11.9
+0100000US,,United States,0500000US21227,21227,92,"United States - Warren County, Kentucky","Warren County, Kentucky",47219,52791,5572,11.8
+0100000US,,United States,0500000US20149,20149,93,"United States - Pottawatomie County, Kansas","Pottawatomie County, Kansas",8628,9644,1016,11.8
+0100000US,,United States,0500000US13057,13057,94,"United States - Cherokee County, Georgia","Cherokee County, Georgia",82370,92057,9687,11.8
+0100000US,,United States,0500000US48027,48027,95,"United States - Bell County, Texas","Bell County, Texas",125437,140157,14720,11.7
+0100000US,,United States,0500000US49011,49011,96,"United States - Davis County, Utah","Davis County, Utah",97577,108875,11298,11.6
+0100000US,,United States,0500000US40087,40087,97,"United States - McClain County, Oklahoma","McClain County, Oklahoma",13996,15616,1620,11.6
+0100000US,,United States,0500000US51800,51800,98,"United States - Suffolk city, Virginia","Suffolk city, Virginia",33031,36851,3820,11.6
+0100000US,,United States,0500000US48215,48215,99,"United States - Hidalgo County, Texas","Hidalgo County, Texas",248289,276743,28454,11.5
+0100000US,,United States,0500000US37037,37037,100,"United States - Chatham County, North Carolina","Chatham County, North Carolina",28750,32043,3293,11.5

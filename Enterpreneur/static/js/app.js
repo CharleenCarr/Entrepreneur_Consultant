@@ -197,7 +197,7 @@ function init() {
 }
 
 // Initialize the dashboard
-init();
+// init();
 
 // This function rebuild all charts & data on selection change 
 function optionChanged(newSample) { 

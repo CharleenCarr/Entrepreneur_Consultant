@@ -9,7 +9,9 @@ app = Flask(__name__)
 
 # Database Setup
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///static/dataset/consultant.sqlite"
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+
 
 @contextmanager
 def session_scope():

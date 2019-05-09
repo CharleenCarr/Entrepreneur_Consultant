@@ -7,7 +7,6 @@ db = client.consultant
 def Get_Region_Population():
     df = pd.DataFrame.from_records(db.population.find( { "Year": 2018, "Hierarchy": "Region", "Category": "Population" }, {'_id': 0} ))
     df["Percentage"] = (df["Population"] / df["Population"].sum()) * 100
-
     return df
 
 

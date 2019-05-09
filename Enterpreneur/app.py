@@ -5,16 +5,16 @@ import mongo
 
 
 
-@app.before_first_request
-def setup():
-    # Recreate database each time for demo
-    db.drop_all()
-    db.create_all()
-    with session_scope() as session:
-        session.add(User('team', 'Bob_Jones', 'bob@gmail.com', 'Bob', 'Jones', 'cell', '123-123-4567', ''))
-        session.add(User('team','Joe_Doe', 'eat@joes.com', 'Joe', 'Doe', '', '', 'test123'))
-        session.add(User('team','Jane_Doe', 'jane@gmail.com', 'Jane', 'Doe', '', '', ''))
-        session.add(Meta_Col('testcat','sub', 'testcol', 'test', 'testing 123', 'test, test, and test'))
+# @app.before_first_request
+# def setup():
+#     # Recreate database each time for demo
+#     # db.drop_all()
+#     # db.create_all()
+#     with session_scope() as session:
+#         session.add(User('team', 'Bob_Jones', 'bob@gmail.com', 'Bob', 'Jones', 'cell', '123-123-4567', ''))
+#         session.add(User('team','Joe_Doe', 'eat@joes.com', 'Joe', 'Doe', '', '', 'test123'))
+#         session.add(User('team','Jane_Doe', 'jane@gmail.com', 'Jane', 'Doe', '', '', ''))
+#         session.add(Meta_Col('testcat','sub', 'testcol', 'test', 'testing 123', 'test, test, and test'))
 
 # Dashboard
 @app.route('/')
@@ -65,7 +65,7 @@ def population():
     data = mongo.Get_Region_Population()
     results = {
         "percent": data.Percentage.values.tolist(),
-        "Name": data.H_Name.values.tolist(),
+        "name": data.H_Name.values.tolist(),
     }
 
     # Return a list of the column names (sample names)

@@ -14,47 +14,39 @@ function optionChanged(name) {
 
 // This function set city's images & link
 function get_Cityfiles(name) {
-    list = ["categories", "word"];
+    list = ["categories", "word", "topstore", "leaststore", "review", "rating"];
+    // d3.select("#word").attr("src", "static/img/entrepreneur_logo.jpg");
+    // imglist = d3.select("img");
+    // console.log(imglist);
 
     // alert(name);
     url = "/select/" + name
     d3.json(url).then(function(results) {
         // console.log(results);
-
-        for (var i = 0; i < list.length; i++) {
-            // console.log(list[i]);
-            // if img.toLowerCase().indexOf(link) {
-
-        }
- 
-        // Object.entries(results).forEach(([id, value]) => {
-        //     console.log(value);
-        //         value.forEach((item) => {console.log(item)}
-
-        //     )
-        // });   
-    
-
+        // Loop thru jsonify object list, find match, & write image path
         Object.entries(results).forEach(([id, item]) => {
-            console.log(id);
+            // console.log(id);
             item.forEach(img => {
                 for (var i = 0; i < list.length; i++) {
-                    m = String(img);
-                    console.log(m);
-                    console.log(list[i]);
-                    // if m.includes(list[i]) {
-
-                    // }
+                    // Check if img path string contain item in list
+                    // If so, write image path to item list id
+                    imgString = img.toString().toLowerCase();
+                    idString = String(list[i]);
+                    // console.log(imgString.search(idString));
+                    if (imgString.search(idString) > 0) {
+                        image = document.getElementById(list[i]);
+                        image.src = img;
+                        // console.log(img);
+                        // console.log(list[i]);
+                    }else{
+                        if (imgString.search("my_map") > 0) {
+                            image = document.getElementById("my_map");
+                            image.href = img;
+                        }
+                    }
                 }
-                console.log(img);
             })
         });
-            // selector
-            //     .append("option")
-            //     .text(city)
-            //     .property("value", city);
-    
-            // });
  
     });
 }

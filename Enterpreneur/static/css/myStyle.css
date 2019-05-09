@@ -1,9 +1,7 @@
-html {
+﻿html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  max-width: 100%;
-  max-height: 100%;
   font-size: 1rem;
   overflow: auto; 
   }
@@ -13,70 +11,54 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; 
  }
-   
- .bg-img {
-  background: url(../img/business-handshake.png) right no-repeat;
-  background-size: cover;
-}
 
 body {
-  background-color: #e8eaf6 ;
+  background-color: black ;
+  background-image: url("/static/img/business-handshake.jpg");
+  background-repeat: no-repeat;
+  /* Chrome, Safari, Opera */
+  -webkit-animation: img_loop 25s linear 10s infinite alternate;  
+  /* Standard syntax */
+  animation: img_loop 25s linear 10s infinite alternate;
+  max-width: 100%;
+  max-height: 100%;
   margin: 1px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, Arial, Helvetica;
+  /* font-size: 1rem; */
 }  
-
-/* Calculate text size based on port center*/
-.text-responsive {
-  font-size: 5vw;
-}
-
-.sticky-offset { 
-  padding: 5rem 0rem 0rem 0rem; 
-} 
-
-.text-navy {
-  color: navy;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
- /*Footer: Gradient Colors */
-.bg-grad_gray {
- /*  background-color:  rgba(0,0,255); For browsers that do not support gradients */
-  background-image: linear-gradient(rgba(131, 130, 134, 0.1), rgba(0, 0, 128, 1)); /* Standard syntax (must be last) */
-}
-
-a:link, a:visited {
-  color: white;
-  text-decoration: underline;
-}
-
-a:hover, a:active {
-  color:  #aa00ff;
-  text-decoration: underline;
-}
-
- /* Button colors */
- .bt-purple:not(:disabled):not(.disabled).active, .bt-purple:hover, .btn-purple:not(:disabled):not(.disabled):active, .bt-purple:hover, .show>.btn-purple.dropdown-toggle {
-  color: #fff;
-  background-color: #aa00ff;
-  border-bottom: 1px solid  #673ab7; 
-  text-align: center;
-}
-
-.bt-purple:hover {
-  box-shadow: 0 1px 20px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.bt-purple {
-  color: #fff;
-  background-color: #7e57c2;
-  border-bottom: 1px solid #673ab7;
-  text-align: center;
+  .jumbotron {
+    background: transparent;
   }
-  
-.dropdown:hover .dropdown-menu {
-  display: block;
-  background-color: #e5e5f5;
+
+  /* Calculate text size based on port */
+  .text-responsive {
+    font-size: 5vw;
+  }
+
+  .sticky-offset { 
+    padding: 15rem 0rem 0rem 0rem; 
+  } 
+
+/*
+####################################################
+  JUMBOTRON ANIMATION
+####################################################
+Chrome, Safari, Opera */
+@-webkit-keyframes img_loop {
+  0% {background-image: url("/static/img/entrepreneur-woman-leadership.jpg");}
+  25% {background-image: url("/static/img/entrepreneurship.jpg");}
+  50% {background-image: url("/static/img/enterprenuership-USA.jpg");}
+  75% {background-image: url("/static/img/entrepreneur-networking.jpg");}
+  100% {background-image: url("/static/img/business-handshake.jpg");}
+}
+
+/* Standard syntax */
+@keyframes img_loop {
+  0% {background-image: url("/static/img/entrepreneur-woman-leadership.jpg");}
+  25% {background-image: url("/static/img/entrepreneurship.jpg");}
+  50% {background-image: url("/static/img/enterprenuership-USA.jpg");}
+  75% {background-image: url("/static/img/entrepreneur-networking.jpg");}
+  100% {background-image: url("/static/img/business-handshake.jpg");}
 }
 
 /*
@@ -87,21 +69,26 @@ Bootstrap 4 breakpoints
 */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {  
-  .sticky-offset {padding: 5rem 0rem 0rem 0rem;} 
+  .sticky-offset { padding: 11rem 0rem 0rem 0rem; } 
+  .text-responsive {font-size: 5vw;}
 }
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-  .sticky-offset {padding: 6rem 0rem 0rem 0rem;} 
+@media (min-width: 576px) and (max-width: 767px) {  
+  .sticky-offset { padding: 15rem 0rem 0rem 0rem; } 
+  .text-responsive {font-size: 4vw;}
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
-  .sticky-offset {padding: 7rem 0rem 0rem 0rem;} 
+  .sticky-offset { padding: 15rem 0rem 0rem 0rem; }
+  .text-responsive {font-size: 3vw;} 
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) { 
-  .sticky-offset {padding: 7rem 0rem 0rem 0rem;} 
+  .sticky-offset { padding: 17rem 0rem 0rem 0rem; } 
+  .text-responsive {font-size: 3vw;}
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
-  .sticky-offset {padding: 8rem 0rem 0rem 0rem;} 
+  .sticky-offset { padding: 17rem 0rem 0rem 0rem; } 
+  .text-responsive {font-size: 3vw;}
 }

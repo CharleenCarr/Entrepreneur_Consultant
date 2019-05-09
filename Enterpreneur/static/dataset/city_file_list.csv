@@ -1,0 +1,71 @@
+﻿City,File,New_Name,File_Path
+Chandler,my_mapChandler.html,my_mapChandler.html,static/graphic/my_mapChandler.html
+Charlotte,my_mapCharlotte.html,my_mapCharlotte.html,static/graphic/my_mapCharlotte.html
+Cleveland,my_mapCleveland.html,my_mapCleveland.html,static/graphic/my_mapCleveland.html
+Henderson,my_mapHenderson.html,my_mapHenderson.html,static/graphic/my_mapHenderson.html
+Las Vegas,my_mapLosVegas.html,my_mapLosVegas.html,static/graphic/my_mapLosVegas.html
+Mesa,my_mapMesa.html,my_mapMesa.html,static/graphic/my_mapMesa.html
+Phoenix,my_mapPhoenix.html,my_mapPhoenix.html,static/graphic/my_mapPhoenix.html
+Pittsburgh,my_mapPittsburgh.html,my_mapPittsburgh.html,static/graphic/my_mapPittsburgh.html
+Scottsdale,my_mapScottsdale.html,my_mapScottsdale.html,static/graphic/my_mapScottsdale.html
+Tempe,my_mapTempe.html,my_mapTempe.html,static/graphic/my_mapTempe.html
+Chandler,least Stores City and StatesChandler.png,leastStoresChandler.png,static/graphic/leastStoresChandler.png
+Chandler,Top stores City and StatesChandler.png,TopstoresChandler.png,static/graphic/TopstoresChandler.png
+Charlotte,least Stores City and StatesCharlotte.png,leastStoresCharlotte.png,static/graphic/leastStoresCharlotte.png
+Charlotte,Top stores City and StatesCharlotte.png,TopstoresCharlotte.png,static/graphic/TopstoresCharlotte.png
+Cleveland,least Stores City and StatesCleveland.png,leastStoresCleveland.png,static/graphic/leastStoresCleveland.png
+Cleveland,Top stores City and StatesCleveland.png,TopstoresCleveland.png,static/graphic/TopstoresCleveland.png
+Henderson,least Stores City and StatesHenderson.png,leastStoresHenderson.png,static/graphic/leastStoresHenderson.png
+Henderson,Top stores City and StatesHenderson.png,TopstoresHenderson.png,static/graphic/TopstoresHenderson.png
+Las Vegas,least Stores City and StatesLV.png,leastStoresLosVegas.png,static/graphic/leastStoresLosVegas.png
+Las Vegas,Top_stores_City_and_StatesLV.png,TopstoresLosVegas.png,static/graphic/TopstoresLosVegas.png
+Mesa,least Stores City and StatesMesa.png,leastStoresMesa.png,static/graphic/leastStoresMesa.png
+Mesa,Top stores City and StatesMesa.png,TopstoresMesa.png,static/graphic/TopstoresMesa.png
+Phoenix,least Stores City and StatesPhoenix.png,leastStoresPhoenix.png,static/graphic/leastStoresPhoenix.png
+Phoenix,Top stores City and StatesPhoenix.png,TopstoresPhoenix.png,static/graphic/TopstoresPhoenix.png
+Pittsburgh,least Stores City and StatesPittsburgh.png,leastStoresPittsburgh.png,static/graphic/leastStoresPittsburgh.png
+Pittsburgh,Top stores City and StatesPittsburgh.png,TopstoresPittsburgh.png,static/graphic/TopstoresPittsburgh.png
+Chandler,Top Business Based on reviewChandler.png,reviewChandler.png,static/graphic/reviewChandler.png
+Charlotte,Top Business Based on reviewCharlotte.png,reviewCharlotte.png,static/graphic/reviewCharlotte.png
+Cleveland,Top Business Based on reviewCleveland.png,reviewCleveland.png,static/graphic/reviewCleveland.png
+Henderson,Top Business Based on reviewHenderson.png,reviewHenderson.png,static/graphic/reviewHenderson.png
+Las Vegas,Top Business Based on reviewLV.png,reviewLosVegas.png,static/graphic/reviewLosVegas.png
+Mesa,Top Business Based on reviewMesa.png,reviewMesa.png,static/graphic/reviewMesa.png
+Phoenix,Top Business Based on reviewPhoenix.png,reviewPhoenix.png,static/graphic/reviewPhoenix.png
+Pittsburgh,Top Business Based on reviewPittsburgh.png,reviewPittsburgh.png,static/graphic/reviewPittsburgh.png
+Scottsdale,Top Business Based on reviewScottsdale.png,reviewScottsdale.png,static/graphic/reviewScottsdale.png
+Tempe,Top Business Based on reviewTempe.png,reviewTempe.png,static/graphic/reviewTempe.png
+Scottsdale,least Stores City and StatesScottsdale.png,leastStoresScottsdale.png,static/graphic/leastStoresScottsdale.png
+Scottsdale,Top stores City and StatesScottsdale.png,TopstoresScottsdale.png,static/graphic/TopstoresScottsdale.png
+Tempe,least Stores City and StatesTempe.png,leastStoresTempe.png,static/graphic/leastStoresTempe.png
+Tempe,Top stores City and StatesTempe.png,TopstoresTempe.png,static/graphic/TopstoresTempe.png
+Chandler,Top Category wordsChandler.png,wordsChandler.png,static/graphic/wordsChandler.png
+Charlotte,Top Category wordsCharlotte.png,wordsCharlotte.png,static/graphic/wordsCharlotte.png
+Cleveland,Top Category wordsCleveland.png,wordsCleveland.png,static/graphic/wordsCleveland.png
+Henderson,Top Category wordsHenderson.png,wordsHenderson.png,static/graphic/wordsHenderson.png
+Las Vegas,Top Category wordsLV.png,wordsLosVegas.png,static/graphic/wordsLosVegas.png
+Mesa,Top Category wordsMesa.png,wordsMesa.png,static/graphic/wordsMesa.png
+Phoenix,Top Category wordsPhoenix.png,wordsPhoenix.png,static/graphic/wordsPhoenix.png
+Pittsburgh,Top Category wordsPittsburgh.png,wordsPittsburgh.png,static/graphic/wordsPittsburgh.png
+Scottsdale,Top Category wordsScottsdale.png,wordsScottsdale.png,static/graphic/wordsScottsdale.png
+Tempe,Top Category wordsTempe.png,wordsTempe.png,static/graphic/wordsTempe.png
+Chandler,Rating DistributionChandler.png,RatingChandler.png,static/graphic/RatingChandler.png
+Charlotte,Rating DistributionCharlotte.png,RatingCharlotte.png,static/graphic/RatingCharlotte.png
+Cleveland,Rating DistributionCleveland.png,RatingCleveland.png,static/graphic/RatingCleveland.png
+Henderson,Rating DistributionHenderson.png,RatingHenderson.png,static/graphic/RatingHenderson.png
+Las Vegas,Rating DistributionLV.png,RatingLosVegas.png,static/graphic/RatingLosVegas.png
+Chandler,Top main business categoriesChandler.png,categoriesChandler.png,static/graphic/categoriesChandler.png
+Charlotte,Top main business categoriesCharlotte.png,categoriesCharlotte.png,static/graphic/categoriesCharlotte.png
+Cleveland,Top main business categoriesCleveland.png,categoriesCleveland.png,static/graphic/categoriesCleveland.png
+Henderson,Top main business categoriesHenderson.png,categoriesHenderson.png,static/graphic/categoriesHenderson.png
+Las Vegas,Top main business categoriesLV.png,categoriesLosVegas.png,static/graphic/categoriesLosVegas.png
+Mesa,Top main business categoriesMesa.png,categoriesMesa.png,static/graphic/categoriesMesa.png
+Phoenix,Top main business categoriesPhoenix.png,categoriesPhoenix.png,static/graphic/categoriesPhoenix.png
+Pittsburgh,Top main business categoriesPittsburgh.png,categoriesPittsburgh.png,static/graphic/categoriesPittsburgh.png
+Scottsdale,Top main business categoriesScottsdale.png,categoriesScottsdale.png,static/graphic/categoriesScottsdale.png
+Tempe,Top main business categoriesTempe.png,categoriesTempe.png,static/graphic/categoriesTempe.png
+Mesa,Rating DistributionMesa.png,RatingMesa.png,static/graphic/RatingMesa.png
+Phoenix,Rating DistributionPhoenix.png,RatingPhoenix.png,static/graphic/RatingPhoenix.png
+Pittsburgh,Rating DistributionPittsburgh.png,RatingPittsburgh.png,static/graphic/RatingPittsburgh.png
+Scottsdale,Rating DistributionScottsdale.png,RatingScottsdale.png,static/graphic/RatingScottsdale.png
+Tempe,Rating DistributionTempe.png,RatingTempe.png,static/graphic/RatingTempe.png

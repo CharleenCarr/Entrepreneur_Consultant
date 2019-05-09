@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Enterpreneur Consultant</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/myStyle1.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/table-style.css') }}">
+</head>
+
+<body>
+  <!-- bg-grad_blue  -->
+  <div class="container-fluid">
+    <header>
+      <div class="bg-grad_gray fixed-top d-flex">
+        <a href="#">
+            <img src="{{url_for('static', filename='img/entrepreneur_logo.jpg')}}" class="rounded m-2" alt=" entrepreneur logo" width="110" height="80">
+        </a>
+
+        <div class="w-100">
+          <h1 class="text-responsive text-center p-1 text-white">Enterpreneur</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-grad_blue fixed-top">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navID"
+              aria-controls="navID" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Nav tabs -->
+          <div class="collapse navbar-collapse" id="navID">
+              <ul class="navbar-nav nav-pills ml-auto">
+                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                      <a class="nav-link bt-purple" href="/dashboard" title="Comparison">Dashboard</a>
+                  </li>
+                  <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                      <a class="nav-link bt-purple" href="/index1" title="Data">Test Layout</a>
+                  </li>
+                  <li class="nav-item dropdown" data-toggle="collapse" data-target=".navbar-collapse">
+                    <a class="nav-link bt-purple dropdown-toggle" href="#" title="Plot dropdown" id="navbardrop"
+                        data-toggle="dropdown">Plot</a>
+                    <div id="plotID" class="dropdown-menu">
+                        <a class="dropdown-item bt-purple" href="#">Max Temperature</a>
+                        <a class="dropdown-item bt-purple" href="#">Humidity</a>
+                        <a class="dropdown-item bt-purple" href="#">Cloudiness</a>
+                        <a class="dropdown-item bt-purple" href="#">Wind Speed</a>
+                    </div>
+                </li>                  
+              </ul>
+          </div>
+      </nav>
+      </div>
+    </header>
+
+    <div id="sticky" class="sticky-offset">
+      <div class="row">
+        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+          <div class="card shadow p-2 mb-2">
+            <img src="https://media.giphy.com/media/AJJqjf5KPaofu/giphy.gif" class="rounded h-100 w-100"
+              alt="animated earth">
+          </div>
+          <div class="card shadow p-2 mb-2">
+            <img src="https://media.giphy.com/media/nQT67WYvrLZ72/giphy.gif" class="rounded h-100 w-100"
+              alt="animated animated earth2">
+          </div>
+        </div>
+
+        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+          <div class="card p-7 shadow mb-2">
+            <div class="card-header text-navy">
+              <h4 class="text-center">
+                Disasters Map
+              </h4>
+            </div>
+            <div class="card-body">
+              <p>
+                United States Geological Survey, USGS, is responsible for providing scientific data about natural
+                hazards,
+                the health of our ecosystems and environment; and the impacts of climate and land-use change. Their
+                scientists
+                develop new methods and tools to supply timely, relevant, and useful information about the Earth and
+                its processes.
+              </p>
+              <p>
+                The USGS is interested in building a new set of tools that will allow them visualize their earthquake
+                data.
+                They collect a massive amount of data from all over the world each day, but they lack a meaningful way
+                of displaying
+                it. Their hope is that being able to visualize their data will allow them to better educate the public
+                and other
+                government organizations (and hopefully secure more funding..) on issues facing our planet.
+              </p>
+              <p>
+                The USGS provides earthquake data in a number of different formats, updated every 5 minutes, at
+                <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_black"
+                  title="USGS Earthquake data link.">
+                  USGS GeoJSON Feed
+                </a>. The map on the link above contains dataset of all earthquakes from the past 7 days.
+              </p>
+              <p>
+
+              </p>
+            </div>
+          </div>
+
+          <div class="card shadow p-2 mb-2">
+            <img src="https://media.giphy.com/media/PlrHQzUQHn584/giphy.gif" class="rounded h-100 w-100"
+              alt="animated earthquake at someone's yard">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer start fixed-bottom -->
+  <footer class="mt-5 foot">
+    <div class="text-center text-white bg-grad_gray p-1">
+        <i>© 2019 Copyright: 
+          <a target="_blank" href="https://www.linkedin.com/in/alicia-ramkissoon/" title="Alicia's Profile">Alicia Ramkissoon</a>,          
+          <a target="_blank" href="https://www.linkedin.com/in/arindam-mukherjee/" title="Arindam's Profile">Arindam Mukherjee</a>,          
+          <a target="_blank" href="https://www.linkedin.com/in/charleen-carr/" title="Charleen's Profile">Charleen Carr</a>, 
+          <a target="_blank" href="https://www.linkedin.com/in/janie-wallace/" title="Janie's Profile">Janie Wallace</a>, 
+          <a target="_blank" href="https://www.linkedin.com/in/jjnunez25/" title="Jose's Profile">Jose Nunez</a>          
+        </i>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+    <!-- <script src="/Scripts/myJQuery.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- <script src="{{ url_for('static', filename='js/app.js') }}"></script> -->
+
+</body>
+
+</html>

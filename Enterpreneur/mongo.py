@@ -1,11 +1,24 @@
 from pymongo import MongoClient
+import pandas as pd
+
 client = MongoClient("mongodb+srv://admin:admin123@janie-test-vcn3t.mongodb.net/test?retryWrites=true")
 db = client.consultant
 
+def Get_Region_Population():
+    df = pd.DataFrame.from_records(db.population.find( { "Year": 2018, "Hierarchy": "Region", "Category": "Population" }, {'_id': 0} ))
+    df["Percentage"] = (df["Population"] / df["Population"].sum()) * 100
 
-# # Get data from mongo & convert back to dataframe
-# df = pd.DataFrame.from_records(db.crime.find({}, {'_id': 0 }))
-# df
+    return df
+
+
+def Get_Cities():
+    rlist = db.list.distinct("City")
+    return rlist
+
+def GetList_by_City(name):
+    df = pd.DataFrame.from_records(db.list.find({ "City": name }, {"_id": 0, "City": 1, "File": 1, "File_Path": 1}))
+    return df
+
 
 # # Default home page rendering html & data pass to it
 # @app.route('/')

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Enterpreneur Consultant</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/myStyle1.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/table-style.css') }}">
+</head>
+
+<body>
+  <!-- bg-grad_blue  -->
+  <div class="container-fluid">
+    <header>
+      <div class="bg-grad_gray fixed-top d-flex">
+        <a href="#">
+          <img src="{{url_for('static', filename='img/entrepreneur_logo.jpg')}}" class="rounded m-2"
+            alt=" entrepreneur logo" width="110" height="80">
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-grad_blue fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navID" aria-controls="navID"  aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <!-- Nav tabs -->
+            <div class="collapse navbar-collapse" id="navID">
+              <ul class="navbar-nav nav-pills ml-auto">
+                <li class="nav-item dropdown" data-toggle="collapse" data-target=".navbar-collapse">
+                  <a class="nav-link bt-purple dropdown-toggle" href="#" title="Plot dropdown" id="navbardrop"  data-toggle="dropdown">Hierarchy</a>
+                  <div id="plotID" class="dropdown-menu">
+                    <a class="dropdown-item bt-purple" href="/country">Country</a>
+                    <a class="dropdown-item bt-purple" href="/region">Region</a>
+                    <a class="dropdown-item bt-purple" href="/state">State</a>
+                    <a class="dropdown-item bt-purple" href="/county">County</a>
+                    <a class="dropdown-item bt-purple" href="/city">City</a>
+                  </div>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                  <a class="nav-link bt-purple" href="/" title="Dashboard">Dashboard</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                  <a class="nav-link bt-purple" href="/index1" title="Data">Test Layout</a>
+                </li>     
+              </ul>
+            </div>
+    
+          </nav>   
+      </div>
+    </header>
+
+    <div id="sticky" class="sticky-offset">
+        <div class="card p-7 shadow mb-2">
+          <div class="card-header text-navy">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                <h3 class="text-right"><strong>Region</strong></h3>
+              </div>
+            </div>
+  
+          </div>
+          <div class="card-body">
+  
+            <div class="row">
+              <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <div class="card p-2">
+                  <div class="card-header text-navy">
+                  </div>
+                  <div class="card-body">
+                  </div>
+                </div>
+  
+                <div id="word" class="card p-1 text-center">
+                </div>
+  
+              </div>
+              
+              <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 text-center">
+                <div id="category" class="card p-1">
+                </div>
+  
+                <div id="topstore" class="card p-1">
+                </div>
+  
+                <div id="leaststore" class="card p-1 text-center">
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+  
+  
+    </div>
+  </div>
+
+  <!-- Footer start fixed-bottom -->
+  <footer class="mt-5 foot">
+    <div class="text-center text-white bg-grad_gray p-1">
+      <i>© 2019 Copyright:
+        <a target="_blank" href="https://www.linkedin.com/in/alicia-ramkissoon/" title="Alicia's Profile">Alicia Ramkissoon</a>,
+        <a target="_blank" href="https://www.linkedin.com/in/arindam-mukherjee/" title="Arindam's Profile">Arindam Mukherjee</a>,
+        <a target="_blank" href="https://www.linkedin.com/in/charleen-carr/" title="Charleen's Profile">Charleen Carr</a>,
+        <a target="_blank" href="https://www.linkedin.com/in/janie-wallace/" title="Janie's Profile">Janie Wallace</a>,
+        <a target="_blank" href="https://www.linkedin.com/in/jjnunez25/" title="Jose's Profile">Jose Nunez</a>
+      </i>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- <script src="/Scripts/myJQuery.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+
+</body>
+
+</html>

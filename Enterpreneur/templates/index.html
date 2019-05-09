@@ -30,9 +30,13 @@
             <!-- Nav tabs -->
             <div class="collapse navbar-collapse" id="navID">
               <ul class="navbar-nav nav-pills ml-auto">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                  <a class="nav-link bt-purple" href="/" title="Dashboard">Dashboard</a>
+                </li>
                 <li class="nav-item dropdown" data-toggle="collapse" data-target=".navbar-collapse">
-                  <a class="nav-link bt-purple dropdown-toggle" href="#" title="Plot dropdown" id="navbardrop"  data-toggle="dropdown">Hierarchy</a>
-                  <div id="plotID" class="dropdown-menu">
+                  <a class="nav-link bt-purple dropdown-toggle" href="#" title="Plot dropdown" id="navbardrop"
+                    data-toggle="dropdown">Hierarchy</a>
+                  <div id="hID" class="dropdown-menu">
                     <a class="dropdown-item bt-purple" href="/country">Country</a>
                     <a class="dropdown-item bt-purple" href="/region">Region</a>
                     <a class="dropdown-item bt-purple" href="/state">State</a>
@@ -40,11 +44,9 @@
                     <a class="dropdown-item bt-purple" href="/city">City</a>
                   </div>
                 </li>
+
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                  <a class="nav-link bt-purple" href="/" title="Dashboard">Dashboard</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                  <a class="nav-link bt-purple" href="/index1" title="Data">Test Layout</a>
+                  <!-- <a class="nav-link bt-purple" href="/index1" title="Data">Test Layout</a> -->
                 </li>     
               </ul>
             </div>
@@ -67,9 +69,10 @@
                   <h5 class="text-center">Introduction</h5>
                 </div>
                 <div class="card-body">
-                  <p>Welcome to Entrepreneur Consutanting application! This application will help you answer
-                    questions on population, demographic, household income & earning, crime, and business at
-                    the follwing hierachy levels:</p>
+                  <p>Welcome to the Entrepreneur Consulting application!  If you are looking to open a new or existing
+                      business, you are in the right place!  This application will assist you with any information you
+                      need on the population, demographics, household income and earnings, crime rates and existing
+                      businesses in the following hierarchy levels:</p>
                   <ul>
                     <li>Country</li>
                     <li>Region</li>
@@ -80,19 +83,18 @@
                 </div>
               </div>
               <div class="card shadow p-2">
-                <img src="https://media.giphy.com/media/nQT67WYvrLZ72/giphy.gif" class="rounded h-100 w-100"
-                  alt="animated animated earth2">
+
+                
               </div>
             </div>
 
             <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-              <div id="pie" class="overflow-auto d-flex justify-content-center">
-                <!-- Pie chart -->
+              <div id="popie" class="overflow-auto d-flex justify-content-center">
+                <!-- Population Pie chart -->
               </div>
 
-              <div class="card shadow p-2">
-                <img src="https://media.giphy.com/media/PlrHQzUQHn584/giphy.gif" class="rounded h-100 w-100"
-                  alt="animated earthquake at someone's yard">
+              <div id="incomebubble" class="card shadow p-2">
+                <!-- Income Bubble chart -->               
               </div>
             </div>
           </div>

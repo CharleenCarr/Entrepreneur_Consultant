@@ -29,23 +29,25 @@
           <!-- Nav tabs -->
           <div class="collapse navbar-collapse" id="navID">
             <ul class="navbar-nav nav-pills ml-auto">
-              <li class="nav-item dropdown" data-toggle="collapse" data-target=".navbar-collapse">
-                <a class="nav-link bt-purple dropdown-toggle" href="#" title="Plot dropdown" id="navbardrop"  data-toggle="dropdown">Hierarchy</a>
-                <div id="plotID" class="dropdown-menu">
-                  <a class="dropdown-item bt-purple" href="/country">Country</a>
-                  <a class="dropdown-item bt-purple" href="/region">Region</a>
-                  <a class="dropdown-item bt-purple" href="/state">State</a>
-                  <a class="dropdown-item bt-purple" href="/county">County</a>
-                  <a class="dropdown-item bt-purple" href="/city">City</a>
-                </div>
-              </li>
-              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                <a class="nav-link bt-purple" href="/" title="Dashboard">Dashboard</a>
-              </li>
-              <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
-                <a class="nav-link bt-purple" href="/index1" title="Data">Test Layout</a>
-              </li>     
-            </ul>
+              <ul class="navbar-nav nav-pills ml-auto">
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                  <a class="nav-link bt-purple" href="/" title="Dashboard">Dashboard</a>
+                </li>
+                <li class="nav-item dropdown" data-toggle="collapse" data-target=".navbar-collapse">
+                  <a class="nav-link bt-purple dropdown-toggle" href="#" title="Plot dropdown" id="navbardrop"
+                    data-toggle="dropdown">Hierarchy</a>
+                  <div id="hID" class="dropdown-menu">
+                    <a class="dropdown-item bt-purple" href="/country">Country</a>
+                    <a class="dropdown-item bt-purple" href="/region">Region</a>
+                    <a class="dropdown-item bt-purple" href="/state">State</a>
+                    <a class="dropdown-item bt-purple" href="/county">County</a>
+                    <a class="dropdown-item bt-purple" href="/city">City</a>
+                  </div>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse">
+                  <!-- <a class="nav-link bt-purple" href="/index1" title="Data">Test Layout</a> -->
+                </li>
+              </ul>
           </div>
   
         </nav>      
@@ -67,6 +69,7 @@
               </select>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <a id="my_map" class="btn btn-primary" target="_blank" href="" title="View businesses' map">View Map</a>
             </div>
           </div>
 
@@ -80,7 +83,18 @@
                   <h5 class="text-center">Top Ten Cities and their Businesses</h5>
                 </div>
                 <div class="card-body">
-                  <p> Waiting for Alicia</p>
+                  <p>Welcome to the City Data tab!  In this tab, we utilized Machine Learning and Geo Json mapping in
+                    order to demonstrate the many opportunities within the ten top cities.  In this tab, we will
+                    answer your questions on:
+                  </p>
+                  <ul>
+                    <li>The least number of specific stores within the top cities</li>
+                    <li>The map of existing businesses within the top cities</li>
+                    <li>The Yelp ratings of businesses within the top cities</li>
+                    <li>A word cloud of top types of businesses within the top cities</li>
+                    <li>Top businesses within the top cities</li>
+                    <li>The greatest number of specific stores within the top cities</li>
+                  </ul>
                 </div>
               </div>
 
@@ -88,17 +102,26 @@
                 <img id="word" src="" alt="Top category word." class="rounded w-100">
               </div>
 
+              <div class="card p-1">
+                  <img id="rating" src="" alt="Business rating" class="rounded w-100"> 
+              </div>
             </div>
             
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 text-center">
-              <div id="category" class="card p-1">
+              <div class="card p-1">
                   <img id="categories" src="" alt="Top main business categories" class="rounded w-100">
               </div>
 
-              <div id="topstore" class="card p-1">
+              <div class="card p-1">
+                  <img id="topstore" src="" alt="Top stores in city" class="rounded w-100"> 
               </div>
 
-              <div id="leaststore" class="card p-1 text-center">
+              <div class="card p-1 text-center">
+                  <img id="leaststore" src="" alt="Top Main Business Categories" class="rounded w-100"> 
+              </div>
+
+              <div class="card p-1">
+                  <img id="review" src="" alt="Business review" class="rounded w-100"> 
               </div>
             </div>
           </div>
